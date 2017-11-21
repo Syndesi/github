@@ -70,6 +70,14 @@ git checkout [name_of_your_new_branch]
 git push origin [name_of_your_new_branch]
 ```
 
+## Merge branches
+
+```shell
+git checkout master
+git merge --squash dev
+```
+
+
 ## List all branches
 
 ```shell
